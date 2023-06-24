@@ -39,18 +39,18 @@ body{
 
 @media screen and (max-width:768px) {
     .card__title{
-        font-size: 12.8px;
+        font-size: 10px;
     }
     .card__description{
-        font-size: 12.8px;
+        font-size: 10px;
     }
 }
 
-@media screen and (max-width:372px) {
+@media screen and (max-width:320px) {
     .card__title{
         font-size: 9.6px;
     }
     .card__description{
-        visibility: hidden;
+        display: none   ;
     }
 }
